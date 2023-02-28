@@ -39,3 +39,31 @@ header {
         padding: 20px;
     }
 }
+
+.nav-dots {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .navbar {
+        width: 100%;
+
+        ul {
+            display: none;
+        }
+    }
+
+    .nav-dots {
+        display: flex;
+        justify-self: flex-end;
+        align-items: center;
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
+}
